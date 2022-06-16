@@ -4,6 +4,47 @@ curated list of BEV related papers.
 I am intensely reading BEV related papers these days, so this list is expected to be updated very frequently.
 
 
+### BEV Object Detection related
+
+- **[PETRv2]** PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images<br>
+Yingfei Liu, Junjie Yan, Fan Jia, Shuailin Li, Qi Gao, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
+In . [[2206.01256](https://arxiv.org/abs/2206.01256)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
+- **[UVTR]** Unifying Voxel-based Representation with Transformer for 3D Object Detection<br>
+Yanwei Li, Yilun Chen, Xiaojuan Qi, Zeming Li, Jian Sun, Jiaya Jia.<br>
+In . [[2206.00630](https://arxiv.org/abs/2206.00630)] [[dvlab-research/UVTR](https://github.com/dvlab-research/UVTR)]
+- **[BEVFusion2]** BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework<br>
+Tingting Liang, Hongwei Xie, Kaicheng Yu, Zhongyu Xia, Zhiwei Lin, Yongtao Wang, Tao Tang, Bing Wang, Zhi Tang.<br>
+In . [[2205.13790](https://arxiv.org/abs/2205.13790)] [[ADLab-AutoDrive/BEVFusion](https://github.com/ADLab-AutoDrive/BEVFusion)]
+- **[BEVFusion1]** BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation<br>
+Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, Huizi Mao, Daniela Rus, Song Han.<br>
+In . [[2205.13542](https://arxiv.org/abs/2205.13542)] [[mit-han-lab/bevfusion](https://github.com/mit-han-lab/bevfusion)]
+- **[BEVerse]** BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving.<br>
+Yunpeng Zhang, Zheng Zhu, Wenzhao Zheng, Junjie Huang, Guan Huang, Jie Zhou, Jiwen Lu.<br>
+In . [[2205.09743](https://arxiv.org/abs/2205.09743)] [[zhangyp15/BEVerse](https://github.com/zhangyp15/BEVerse)]
+- **[Graph-DETR3D]** Graph-DETR3D: Rethinking Overlapping Regions for Multi-View 3D Object Detection<br>
+Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
+In . [[2204.11582](https://arxiv.org/abs/2204.11582)]
+- **[M2BEV]** M2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation<br>
+Enze Xie, Zhiding Yu, Daquan Zhou, Jonah Philion, Anima Anandkumar, Sanja Fidler, Ping Luo, Jose M. Alvarez.<br>
+In . [[2204.05088](https://arxiv.org/abs/2204.05088)] [[NVlabs/M2BEV](https://github.com/NVlabs/M2BEV)]
+- **[BEVFormer]** BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers<br>
+Zhiqi Li, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao Sima, Tong Lu, Qiao Yu, Jifeng Dai.<br>
+In . [[2203.17270](https://arxiv.org/abs/2203.17270)] [[zhiqi-li/BEVFormer](https://github.com/zhiqi-li/BEVFormer)]
+- **[BEVDet4D]** BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection.<br>
+Junjie Huang, Guan Huang.<br>
+In . [[2203.17054](https://arxiv.org/abs/2203.17054)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
+- **[PETR]** PETR: Position Embedding Transformation for Multi-View 3D Object Detection<br>
+Yingfei Liu, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
+In . [[2203.05625](https://arxiv.org/abs/2203.05625)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
+- **[BEVDet]** BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View.<br>
+Junjie Huang, Guan Huang, Zheng Zhu, Dalong Du.<br>
+In . [[2112.11790](https://arxiv.org/abs/2112.11790)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
+- **[DETR3D]** DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries.<br>
+Yue Wang, Vitor Guizilini, Tianyuan Zhang, Yilun Wang, Hang Zhao, Justin Solomon.<br>
+In CoRL 2021. [[2110.06922](https://arxiv.org/abs/2110.06922)] [[wangyueft/detr3d](https://github.com/wangyueft/detr3d)]
+
+
+
 
 ### BEV Segmentation related
 

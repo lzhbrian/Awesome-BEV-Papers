@@ -87,8 +87,7 @@ In ICRA 2022. [[2107.06307](https://arxiv.org/abs/2107.06307)] [[Tsinghua-MARS-L
 - **[FIERY]** FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras<br>
 Anthony Hu, Zak Murez, Nikhil Mohan, Sof铆a Dudas, Jeffrey Hawke, Vijay Badrinarayanan, Roberto Cipolla, Alex Kendall.<br>
 In ICCV 2021. [[2104.10490](https://arxiv.org/abs/2104.10490)] [[wayveai/fiery](https://github.com/wayveai/fiery)]
-- **[STA]** Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle<br>
-Estimation<br>
+- **[STA]** Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle Estimation<br>
 Avishkar Saha, Oscar Mendez, Chris Russell, Richard Bowden.
 In ICRA 2021. [[paper](https://cvssp.org/Personal/OscarMendez/papers/pdf/SahaICRA2021.pdf)]
 - **[EPOSH]** Bird’s Eye View Segmentation Using Lifted 2D Semantic Features.<br>

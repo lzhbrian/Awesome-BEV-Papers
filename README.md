@@ -6,7 +6,10 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 ### BEV Object Detection related
 
-- **[PETRv2]** PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images<br>
+- **[Ego3RT]** Learning Ego 3D Representation as Ray Tracing.<br>
+Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang.<br>
+In . [[2206.04042](https://arxiv.org/abs/2206.04042)] [[fudan-zvg/Ego3RT](https://github.com/fudan-zvg/Ego3RT)]
+- **[PETRv2]** PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images.<br>
 Yingfei Liu, Junjie Yan, Fan Jia, Shuailin Li, Qi Gao, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
 In . [[2206.01256](https://arxiv.org/abs/2206.01256)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
 - **[UVTR]** Unifying Voxel-based Representation with Transformer for 3D Object Detection<br>

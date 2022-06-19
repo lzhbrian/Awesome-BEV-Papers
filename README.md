@@ -66,6 +66,9 @@ In . [[2204.07733](https://arxiv.org/abs/2204.07733)]
 - **[HFT]** HFT: Lifting Perspective Representations via Hybrid Feature Transformation.<br>
 Jiayu Zou, Junrui Xiao, Zheng Zhu, Junjie Huang, Guan Huang, Dalong Du, Xingang Wang.<br>
 In . [[2204.05068](https://arxiv.org/abs/2204.05068)] [[JiayuZou2020/HFT](https://github.com/JiayuZou2020/HFT)]
+- **[PersFormer]** PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark.<br>
+Li Chen, Chonghao Sima, Yang Li, Zehan Zheng, Jiajie Xu, Xiangwei Geng, Hongyang Li, Conghui He, Jianping Shi, Yu Qiao, Junchi Yan.<br>
+In . [[2203.11089](https://arxiv.org/abs/2203.11089)] [[OpenPerceptionX/PersFormer_3DLane](https://github.com/OpenPerceptionX/PersFormer_3DLane)]
 - **[BEVSegFormer]** BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs.<br>
 Lang Peng, Zhirong Chen, Zhangjie Fu, Pengpeng Liang, Erkang Cheng.<br>
 In . [[2203.04050](https://arxiv.org/abs/2203.04050)]

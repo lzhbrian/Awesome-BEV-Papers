@@ -5,7 +5,12 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 
 ### BEV Object Detection related
-
+- **[UniFormer]** Unified Multi-view Fusion Transformer for Spatial-Temporal Representation in Bird's-Eye-View.<br>
+Zequn Qin, Jingyu Chen, Chao Chen, Xiaozhi Chen, Xi Li.<br>
+In . [[2207.08536](https://arxiv.org/abs/2207.08536)]
+- **[BEVDepth]** BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection.<br>
+Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran Wang, Yukang Shi, Jianjian Sun, Zeming Li.<br>
+In . [[2206.10092](https://arxiv.org/abs/2206.10092)] [[Megvii-BaseDetection/BEVDepth]](https://github.com/Megvii-BaseDetection/BEVDepth)
 - **[Ego3RT]** Learning Ego 3D Representation as Ray Tracing.<br>
 Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang.<br>
 In . [[2206.04042](https://arxiv.org/abs/2206.04042)] [[fudan-zvg/Ego3RT](https://github.com/fudan-zvg/Ego3RT)]

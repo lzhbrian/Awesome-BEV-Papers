@@ -12,9 +12,16 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 
 ### BEV 3D Object Detection related
-- **[H-DETR]** DETRs with Hybrid Matching<br>
+
+- **[H-DETR]** DETRs with Hybrid Matching.<br>
 Ding Jia, Yuhui Yuan, Haodi He, Xiaopei Wu, Haojun Yu, Weihong Lin, Lei Sun, Chao Zhang, Han Hu.<br>
 In . [[2207.13080](https://arxiv.org/abs/2207.13080)] [[HDETR/H-Deformable-DETR](https://github.com/HDETR/H-Deformable-DETR)]
+- **[AutoAlignV2]** AutoAlignV2: Deformable Feature Aggregation for Dynamic Multi-Modal 3D Object Detection.<br>
+Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
+In . [[2207.10316](https://arxiv.org/abs/2207.10316)] [[zehuichen123/AutoAlignV2](https://github.com/zehuichen123/AutoAlignV2)]
+- **[PolarFormer]** PolarFormer: Multi-camera 3D Object Detection with Polar Transformers.<br>
+Yanqin Jiang, Li Zhang, Zhenwei Miao, Xiatian Zhu, Jin Gao, Weiming Hu, Yu-Gang Jiang.<br>
+In . [[2206.15398](https://arxiv.org/abs/2206.15398)]
 - **[SRCN3D]** SRCN3D: Sparse R-CNN 3D Surround-View Camera Object Detection and Tracking for Autonomous Driving.<br>
 Yining Shi, Jingyan Shen, Yifan Sun, Yunlong Wang, Jiaxin Li, Shiqi Sun, Kun Jiang, Diange Yang.<br>
 In . [[2206.14451](https://arxiv.org/abs/2206.14451)] [[synsin0/SRCN3D](https://github.com/synsin0/SRCN3D)]

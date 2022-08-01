@@ -1,15 +1,20 @@
 # BEV-Papers
-curated list of BEV related papers.
+curated list of BEV related papers. 
+
+I also organized DETR related papers here, as they are also closely related to most recent papers.
 
 I am intensely reading BEV related papers these days, so this list is expected to be updated very frequently.
 
 ### TOC
-* [BEV Object Detection](#bev-object-detection-related)
+* [BEV 3D Object Detection](#bev-3d-object-detection-related)
 * [BEV Segmentation](#bev-segmentation-related)
+* [DETR Series](#detr-series)
 
 
-
-### BEV Object Detection related
+### BEV 3D Object Detection related
+- **[H-DETR]** DETRs with Hybrid Matching<br>
+Ding Jia, Yuhui Yuan, Haodi He, Xiaopei Wu, Haojun Yu, Weihong Lin, Lei Sun, Chao Zhang, Han Hu.<br>
+In . [[2207.13080](https://arxiv.org/abs/2207.13080)] [[HDETR/H-Deformable-DETR](https://github.com/HDETR/H-Deformable-DETR)]
 - **[SRCN3D]** SRCN3D: Sparse R-CNN 3D Surround-View Camera Object Detection and Tracking for Autonomous Driving.<br>
 Yining Shi, Jingyan Shen, Yifan Sun, Yunlong Wang, Jiaxin Li, Shiqi Sun, Kun Jiang, Diange Yang.<br>
 In . [[2206.14451](https://arxiv.org/abs/2206.14451)] [[synsin0/SRCN3D](https://github.com/synsin0/SRCN3D)]
@@ -106,7 +111,7 @@ In IROS 2021. [[2107.08862](https://arxiv.org/abs/2107.08862)]
 Qi Li, Yue Wang, Yilun Wang, Hang Zhao.<br>
 In ICRA 2022. [[2107.06307](https://arxiv.org/abs/2107.06307)] [[Tsinghua-MARS-Lab/HDMapNet](https://github.com/Tsinghua-MARS-Lab/HDMapNet)]
 - **[FIERY]** FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras<br>
-Anthony Hu, Zak Murez, Nikhil Mohan, Sof铆a Dudas, Jeffrey Hawke, Vijay Badrinarayanan, Roberto Cipolla, Alex Kendall.<br>
+Anthony Hu, Zak Murez, Nikhil Mohan, Sofia Dudas, Jeffrey Hawke, Vijay Badrinarayanan, Roberto Cipolla, Alex Kendall.<br>
 In ICCV 2021. [[2104.10490](https://arxiv.org/abs/2104.10490)] [[wayveai/fiery](https://github.com/wayveai/fiery)]
 - **[STA]** Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle Estimation<br>
 Avishkar Saha, Oscar Mendez, Chris Russell, Richard Bowden.
@@ -155,13 +160,64 @@ Sunando Sengupta, Paul Sturgess, L’ubor Ladický, Philip H. S. Torr.<br>
 In IROS 2012. [[paper](https://www.robots.ox.ac.uk/~tvg/publications/2012/IROS_Mapping_ss.pdf)]
 
 
-
-
-
-
-
-
-
+### DETR Series
+- **[DETR++]** DETR++: Taming Your Multi-Scale Detection Transformer.<br>
+Chi Zhang, Lijuan Liu, Xiaoxue Zang, Frederick Liu, Hao Zhang, Xinying Song, Jindong Chen.<br>
+In CVPRW 2022. [[2206.02977](https://arxiv.org/abs/2206.02977)]
+- **[Mask DINO]** Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation.<br>
+Feng Li, Hao Zhang, Huaizhe xu, Shilong Liu, Lei Zhang, Lionel M. Ni, Heung-Yeung Shum.<br>
+In . [[2206.02777](https://arxiv.org/abs/2206.02777)] [[IDEACVR/MaskDINO](https://github.com/IDEACVR/MaskDINO)]
+- **[DDQ]** What Are Expected Queries in End-to-End Object Detection?<br>
+Shilong Zhang, Xinjiang Wang, Jiaqi Wang, Jiangmiao Pang, Kai Chen.<br>
+In . [[2206.01232](https://arxiv.org/abs/2206.01232)] [[jshilong/DDQ](https://github.com/jshilong/DDQ)]
+- **[Dynamic Sparse R-CNN]** Dynamic Sparse R-CNN.<br>
+Qinghang Hong, Fengming Liu, Dong Li, Ji Liu, Lu Tian, Yi Shan.<br>
+In CVPR 2022. [[2205.02101](https://arxiv.org/abs/2205.02101)]
+- **[DINO]** DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection<br>
+Hao Zhang, Feng Li, Shilong Liu, Lei Zhang, Hang Su, Jun Zhu, Lionel M. Ni, Heung-Yeung Shum.<br>
+In . [[2203.03605](https://arxiv.org/abs/2203.03605)]
+- **[DN-DETR]** DN-DETR: Accelerate DETR Training by Introducing Query DeNoising.<br>
+Feng Li, Hao Zhang, Shilong Liu, Jian Guo, Lionel M. Ni, Lei Zhang.<br>
+In CVPR 2022. [[2203.01305](https://arxiv.org/abs/2203.01305)] [[IDEA-opensource/DN-DETR](https://github.com/IDEA-opensource/DN-DETR)]
+- **[D^2ETR]** D^2ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention.<br>
+Junyu Lin, Xiaofeng Mao, Yuefeng Chen, Lei Xu, Yuan He, Hui Xue.<br>
+In . [[2203.00860](https://arxiv.org/abs/2203.00860)]
+- **[DAB-DETR]** DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR.<br>
+Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, Lei Zhang.<br>
+In ICLR 2022. [[2201.12329](https://arxiv.org/abs/2201.12329)] [[IDEA-opensource/DAB-DETR](https://github.com/IDEA-opensource/DAB-DETR)]
+- **[Deformable Attention]** Vision Transformer with Deformable Attention.<br>
+Zhuofan Xia, Xuran Pan, Shiji Song, Li Erran Li, Gao Huang.<br>
+In CVPR 2022. [[2201.00520](https://arxiv.org/abs/2201.00520)] [[LeapLabTHU/DAT](https://github.com/LeapLabTHU/DAT)]
+- **[Sparse DETR]** Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity<br>
+Byungseok Roh, JaeWoong Shin, Wuhyun Shin, Saehoon Kim.<br>
+In ICLR 2022. [[2111.14330](https://arxiv.org/abs/2111.14330)] [[kakaobrain/sparse-detr](https://github.com/kakaobrain/sparse-detr)]
+- **[Anchor DETR]** Anchor DETR: Query Design for Transformer-Based Object Detection.<br>
+Yingming Wang, Xiangyu Zhang, Tong Yang, Jian Sun.<br>
+In AAAI 2022. [[2109.07107](https://arxiv.org/abs/2109.07107)] [[megvii-research/AnchorDETR](https://github.com/megvii-research/AnchorDETR)]
+- **[Dynamic DETR]** Dynamic DETR: End-to-End Object Detection With Dynamic Attention.<br>
+Xiyang Dai, Yinpeng Chen, Jianwei Yang, Pengchuan Zhang, Lu Yuan, Lei Zhang.<br>
+In ICCV 2021. [[paper](https://openaccess.thecvf.com/content/ICCV2021/html/Dai_Dynamic_DETR_End-to-End_Object_Detection_With_Dynamic_Attention_ICCV_2021_paper.html?ref=https://githubhelp.com)]
+- **[Conditional DETR]** Conditional DETR for Fast Training Convergence<br>
+Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan, Lei Sun, Jingdong Wang.<br>
+In ICCV 2021. [[2108.06152](https://arxiv.org/abs/2108.06152)] [[Atten4Vis/ConditionalDETR](https://github.com/Atten4Vis/ConditionalDETR)]
+- **[Efficient DETR]** Efficient DETR: Improving End-to-End Object Detector with Dense Prior<br>
+Zhuyu Yao, Jiangbo Ai, Boxun Li, Chi Zhang.<br>
+In . [[2104.01318](https://arxiv.org/abs/2104.01318)]
+- **[SMCA]** Fast Convergence of DETR with Spatially Modulated Co-Attention<br>
+Peng Gao, Minghang Zheng, Xiaogang Wang, Jifeng Dai, Hongsheng Li.<br>
+In . [[2101.07448](https://arxiv.org/abs/2101.07448)] [[gaopengcuhk/SMCA-DETR](https://github.com/gaopengcuhk/SMCA-DETR)]
+- **[Sparse R-CNN]** Sparse R-CNN: End-to-End Object Detection with Learnable Proposals<br>
+Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu, Wei Zhan, Masayoshi Tomizuka, Lei Li, Zehuan Yuan, Changhu Wang, Ping Luo.<br>
+In . [[2011.12450](https://arxiv.org/abs/2011.12450)] [[PeizeSun/SparseR-CNN](https://github.com/PeizeSun/SparseR-CNN)]
+- **[TSP]** Rethinking Transformer-based Set Prediction for Object Detection<br>
+Zhiqing Sun, Shengcao Cao, Yiming Yang, Kris Kitani.<br>
+In ICCV 2021. [[2011.10881](https://arxiv.org/abs/2011.10881)]
+- **[Deformable DETR]** Deformable DETR: Deformable Transformers for End-to-End Object Detection.<br>
+Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, Jifeng Dai.<br>
+In ICLR 2021. [[2010.04159](https://arxiv.org/abs/2010.04159)] [[fundamentalvision/Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR)]
+- **[DETR]** End-to-End Object Detection with Transformers.<br>
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.<br>
+In [[2005.12872](https://arxiv.org/abs/2005.12872)] [[facebookresearch/detr](https://github.com/facebookresearch/detr)]
 
 
 

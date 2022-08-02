@@ -12,7 +12,6 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 
 ### BEV 3D Object Detection related
-
 - **[H-DETR]** DETRs with Hybrid Matching.<br>
 Ding Jia, Yuhui Yuan, Haodi He, Xiaopei Wu, Haojun Yu, Weihong Lin, Lei Sun, Chao Zhang, Han Hu.<br>
 In . [[2207.13080](https://arxiv.org/abs/2207.13080)] [[HDETR/H-Deformable-DETR](https://github.com/HDETR/H-Deformable-DETR)]
@@ -25,6 +24,9 @@ In . [[2206.15398](https://arxiv.org/abs/2206.15398)]
 - **[SRCN3D]** SRCN3D: Sparse R-CNN 3D Surround-View Camera Object Detection and Tracking for Autonomous Driving.<br>
 Yining Shi, Jingyan Shen, Yifan Sun, Yunlong Wang, Jiaxin Li, Shiqi Sun, Kun Jiang, Diange Yang.<br>
 In . [[2206.14451](https://arxiv.org/abs/2206.14451)] [[synsin0/SRCN3D](https://github.com/synsin0/SRCN3D)]
+- **[PolarDETR]** Polar Parametrization for Vision-based Surround-View 3D Detection.<br>
+Shaoyu Chen, Xinggang Wang, Tianheng Cheng, Qian Zhang, Chang Huang, Wenyu Liu.<br>
+In . [[2206.10965](https://arxiv.org/abs/2206.10965)] [[hustvl/PolarDETR](https://github.com/hustvl/PolarDETR)]
 - **[BEVDepth]** BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection.<br>
 Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran Wang, Yukang Shi, Jianjian Sun, Zeming Li.<br>
 In . [[2206.10092](https://arxiv.org/abs/2206.10092)] [[Megvii-BaseDetection/BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)]

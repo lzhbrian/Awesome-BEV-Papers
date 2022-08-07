@@ -1,7 +1,5 @@
-# BEV-Papers
-curated list of BEV related papers. 
-
-I also organized DETR related papers here, as they are also closely related to most recent papers.
+# Awesome-BEV-Papers
+curated list of BEV related papers. I also organized DETR related papers here, as they are also closely related to most recent papers.
 
 I am intensely reading BEV related papers these days, so this list is expected to be updated very frequently.
 
@@ -12,63 +10,69 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 
 ### BEV 3D Object Detection related
-- **[H-DETR]** DETRs with Hybrid Matching.<br>
-Ding Jia, Yuhui Yuan, Haodi He, Xiaopei Wu, Haojun Yu, Weihong Lin, Lei Sun, Chao Zhang, Han Hu.<br>
-In . [[2207.13080](https://arxiv.org/abs/2207.13080)] [[HDETR/H-Deformable-DETR](https://github.com/HDETR/H-Deformable-DETR)]
 - **[AutoAlignV2]** AutoAlignV2: Deformable Feature Aggregation for Dynamic Multi-Modal 3D Object Detection.<br>
-Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
-In . [[2207.10316](https://arxiv.org/abs/2207.10316)] [[zehuichen123/AutoAlignV2](https://github.com/zehuichen123/AutoAlignV2)]
+  Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
+  In . [[2207.10316](https://arxiv.org/abs/2207.10316)] [[zehuichen123/AutoAlignV2](https://github.com/zehuichen123/AutoAlignV2)]
+- **[ORA3D]** ORA3D: Overlap Region Aware Multi-view 3D Object Detection.<br>
+  Wonseok Roh, Gyusam Chang, Seokha Moon, Giljoo Nam, Chanyoung Kim, Younghyun Kim, Sangpil Kim, Jinkyu Kim.<br>
+  In . [[2207.00865](https://arxiv.org/abs/2207.00865)]
 - **[PolarFormer]** PolarFormer: Multi-camera 3D Object Detection with Polar Transformers.<br>
-Yanqin Jiang, Li Zhang, Zhenwei Miao, Xiatian Zhu, Jin Gao, Weiming Hu, Yu-Gang Jiang.<br>
-In . [[2206.15398](https://arxiv.org/abs/2206.15398)]
+  Yanqin Jiang, Li Zhang, Zhenwei Miao, Xiatian Zhu, Jin Gao, Weiming Hu, Yu-Gang Jiang.<br>
+  In . [[2206.15398](https://arxiv.org/abs/2206.15398)]
 - **[SRCN3D]** SRCN3D: Sparse R-CNN 3D Surround-View Camera Object Detection and Tracking for Autonomous Driving.<br>
-Yining Shi, Jingyan Shen, Yifan Sun, Yunlong Wang, Jiaxin Li, Shiqi Sun, Kun Jiang, Diange Yang.<br>
-In . [[2206.14451](https://arxiv.org/abs/2206.14451)] [[synsin0/SRCN3D](https://github.com/synsin0/SRCN3D)]
+  Yining Shi, Jingyan Shen, Yifan Sun, Yunlong Wang, Jiaxin Li, Shiqi Sun, Kun Jiang, Diange Yang.<br>
+  In . [[2206.14451](https://arxiv.org/abs/2206.14451)] [[synsin0/SRCN3D](https://github.com/synsin0/SRCN3D)]
 - **[PolarDETR]** Polar Parametrization for Vision-based Surround-View 3D Detection.<br>
-Shaoyu Chen, Xinggang Wang, Tianheng Cheng, Qian Zhang, Chang Huang, Wenyu Liu.<br>
-In . [[2206.10965](https://arxiv.org/abs/2206.10965)] [[hustvl/PolarDETR](https://github.com/hustvl/PolarDETR)]
+  Shaoyu Chen, Xinggang Wang, Tianheng Cheng, Qian Zhang, Chang Huang, Wenyu Liu.<br>
+  In . [[2206.10965](https://arxiv.org/abs/2206.10965)] [[hustvl/PolarDETR](https://github.com/hustvl/PolarDETR)]
 - **[BEVDepth]** BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection.<br>
-Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran Wang, Yukang Shi, Jianjian Sun, Zeming Li.<br>
-In . [[2206.10092](https://arxiv.org/abs/2206.10092)] [[Megvii-BaseDetection/BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)]
+  Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran Wang, Yukang Shi, Jianjian Sun, Zeming Li.<br>
+  In . [[2206.10092](https://arxiv.org/abs/2206.10092)] [[Megvii-BaseDetection/BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)]
+- **[Simple Baseline]** A Simple Baseline for BEV Perception Without LiDAR.<br>
+  Adam W. Harley, Zhaoyuan Fang, Jie Li, Rares Ambrus, Katerina Fragkiadaki.<br>
+  In . [[2206.07959](https://arxiv.org/abs/2206.07959)]
 - **[Ego3RT]** Learning Ego 3D Representation as Ray Tracing.<br>
-Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang.<br>
-In . [[2206.04042](https://arxiv.org/abs/2206.04042)] [[fudan-zvg/Ego3RT](https://github.com/fudan-zvg/Ego3RT)]
+  Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang.<br>
+  In . [[2206.04042](https://arxiv.org/abs/2206.04042)] [[fudan-zvg/Ego3RT](https://github.com/fudan-zvg/Ego3RT)]
 - **[PETRv2]** PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images.<br>
-Yingfei Liu, Junjie Yan, Fan Jia, Shuailin Li, Qi Gao, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
-In . [[2206.01256](https://arxiv.org/abs/2206.01256)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
+  Yingfei Liu, Junjie Yan, Fan Jia, Shuailin Li, Qi Gao, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
+  In . [[2206.01256](https://arxiv.org/abs/2206.01256)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
 - **[UVTR]** Unifying Voxel-based Representation with Transformer for 3D Object Detection<br>
-Yanwei Li, Yilun Chen, Xiaojuan Qi, Zeming Li, Jian Sun, Jiaya Jia.<br>
-In . [[2206.00630](https://arxiv.org/abs/2206.00630)] [[dvlab-research/UVTR](https://github.com/dvlab-research/UVTR)]
+  Yanwei Li, Yilun Chen, Xiaojuan Qi, Zeming Li, Jian Sun, Jiaya Jia.<br>
+  In . [[2206.00630](https://arxiv.org/abs/2206.00630)] [[dvlab-research/UVTR](https://github.com/dvlab-research/UVTR)]
 - **[BEVFusion2]** BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework<br>
-Tingting Liang, Hongwei Xie, Kaicheng Yu, Zhongyu Xia, Zhiwei Lin, Yongtao Wang, Tao Tang, Bing Wang, Zhi Tang.<br>
-In . [[2205.13790](https://arxiv.org/abs/2205.13790)] [[ADLab-AutoDrive/BEVFusion](https://github.com/ADLab-AutoDrive/BEVFusion)]
+  Tingting Liang, Hongwei Xie, Kaicheng Yu, Zhongyu Xia, Zhiwei Lin, Yongtao Wang, Tao Tang, Bing Wang, Zhi Tang.<br>
+  In . [[2205.13790](https://arxiv.org/abs/2205.13790)] [[ADLab-AutoDrive/BEVFusion](https://github.com/ADLab-AutoDrive/BEVFusion)]
 - **[BEVFusion1]** BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation<br>
-Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, Huizi Mao, Daniela Rus, Song Han.<br>
-In . [[2205.13542](https://arxiv.org/abs/2205.13542)] [[mit-han-lab/bevfusion](https://github.com/mit-han-lab/bevfusion)]
+  Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, Huizi Mao, Daniela Rus, Song Han.<br>
+  In . [[2205.13542](https://arxiv.org/abs/2205.13542)] [[mit-han-lab/bevfusion](https://github.com/mit-han-lab/bevfusion)]
 - **[BEVerse]** BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving.<br>
-Yunpeng Zhang, Zheng Zhu, Wenzhao Zheng, Junjie Huang, Guan Huang, Jie Zhou, Jiwen Lu.<br>
-In . [[2205.09743](https://arxiv.org/abs/2205.09743)] [[zhangyp15/BEVerse](https://github.com/zhangyp15/BEVerse)]
+  Yunpeng Zhang, Zheng Zhu, Wenzhao Zheng, Junjie Huang, Guan Huang, Jie Zhou, Jiwen Lu.<br>
+  In . [[2205.09743](https://arxiv.org/abs/2205.09743)] [[zhangyp15/BEVerse](https://github.com/zhangyp15/BEVerse)]
+- **[MUTR3D]** MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries.<br>
+  Tianyuan Zhang, Xuanyao Chen, Yue Wang, Yilun Wang, Hang Zhao.<br>
+  In CVPRW 2022. [[2205.00613](https://arxiv.org/abs/2205.00613)] [[a1600012888/MUTR3D](https://github.com/a1600012888/MUTR3D)]
 - **[Graph-DETR3D]** Graph-DETR3D: Rethinking Overlapping Regions for Multi-View 3D Object Detection<br>
-Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
-In . [[2204.11582](https://arxiv.org/abs/2204.11582)]
+  Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
+  In . [[2204.11582](https://arxiv.org/abs/2204.11582)]
 - **[M2BEV]** M2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation<br>
-Enze Xie, Zhiding Yu, Daquan Zhou, Jonah Philion, Anima Anandkumar, Sanja Fidler, Ping Luo, Jose M. Alvarez.<br>
-In . [[2204.05088](https://arxiv.org/abs/2204.05088)] [[NVlabs/M2BEV](https://github.com/NVlabs/M2BEV)]
+  Enze Xie, Zhiding Yu, Daquan Zhou, Jonah Philion, Anima Anandkumar, Sanja Fidler, Ping Luo, Jose M. Alvarez.<br>
+  In . [[2204.05088](https://arxiv.org/abs/2204.05088)] [[NVlabs/M2BEV](https://github.com/NVlabs/M2BEV)]
 - **[BEVFormer]** BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers<br>
-Zhiqi Li, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao Sima, Tong Lu, Qiao Yu, Jifeng Dai.<br>
-In . [[2203.17270](https://arxiv.org/abs/2203.17270)] [[zhiqi-li/BEVFormer](https://github.com/zhiqi-li/BEVFormer)]
+  Zhiqi Li, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao Sima, Tong Lu, Qiao Yu, Jifeng Dai.<br>
+  In . [[2203.17270](https://arxiv.org/abs/2203.17270)] [[zhiqi-li/BEVFormer](https://github.com/zhiqi-li/BEVFormer)]
 - **[BEVDet4D]** BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection.<br>
-Junjie Huang, Guan Huang.<br>
-In . [[2203.17054](https://arxiv.org/abs/2203.17054)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
+  Junjie Huang, Guan Huang.<br>
+  In . [[2203.17054](https://arxiv.org/abs/2203.17054)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
 - **[PETR]** PETR: Position Embedding Transformation for Multi-View 3D Object Detection<br>
-Yingfei Liu, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
-In . [[2203.05625](https://arxiv.org/abs/2203.05625)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
+  Yingfei Liu, Tiancai Wang, Xiangyu Zhang, Jian Sun.<br>
+  In . [[2203.05625](https://arxiv.org/abs/2203.05625)] [[megvii-research/PETR](https://github.com/megvii-research/PETR)]
 - **[BEVDet]** BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View.<br>
-Junjie Huang, Guan Huang, Zheng Zhu, Dalong Du.<br>
-In . [[2112.11790](https://arxiv.org/abs/2112.11790)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
+  Junjie Huang, Guan Huang, Zheng Zhu, Dalong Du.<br>
+  In . [[2112.11790](https://arxiv.org/abs/2112.11790)] [[HuangJunJie2017/BEVDet](https://github.com/HuangJunJie2017/BEVDet)]
 - **[DETR3D]** DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries.<br>
-Yue Wang, Vitor Guizilini, Tianyuan Zhang, Yilun Wang, Hang Zhao, Justin Solomon.<br>
-In CoRL 2021. [[2110.06922](https://arxiv.org/abs/2110.06922)] [[wangyueft/detr3d](https://github.com/wangyueft/detr3d)]
+  Yue Wang, Vitor Guizilini, Tianyuan Zhang, Yilun Wang, Hang Zhao, Justin Solomon.<br>
+  In CoRL 2021. [[2110.06922](https://arxiv.org/abs/2110.06922)] [[wangyueft/detr3d](https://github.com/wangyueft/detr3d)]
 
 
 
@@ -169,7 +173,15 @@ Sunando Sengupta, Paul Sturgess, L’ubor Ladický, Philip H. S. Torr.<br>
 In IROS 2012. [[paper](https://www.robots.ox.ac.uk/~tvg/publications/2012/IROS_Mapping_ss.pdf)]
 
 
+
 ### DETR Series
+
+- **[Group DETR]** Group DETR: Fast DETR Training with Group-Wise One-to-Many Assignment.<br>
+Qiang Chen, Xiaokang Chen, Jian Wang, Haocheng Feng, Junyu Han, Errui Ding, Gang Zeng, Jingdong Wang.<br>
+In . [[2207.13085](https://arxiv.org/abs/2207.13085)]
+- **[H-DETR]** DETRs with Hybrid Matching.<br>
+Ding Jia, Yuhui Yuan, Haodi He, Xiaopei Wu, Haojun Yu, Weihong Lin, Lei Sun, Chao Zhang, Han Hu.<br>
+In . [[2207.13080](https://arxiv.org/abs/2207.13080)] [[HDETR/H-Deformable-DETR](https://github.com/HDETR/H-Deformable-DETR)]
 - **[DETR++]** DETR++: Taming Your Multi-Scale Detection Transformer.<br>
 Chi Zhang, Lijuan Liu, Xiaoxue Zang, Frederick Liu, Hao Zhang, Xinying Song, Jindong Chen.<br>
 In CVPRW 2022. [[2206.02977](https://arxiv.org/abs/2206.02977)]
@@ -227,7 +239,6 @@ In ICLR 2021. [[2010.04159](https://arxiv.org/abs/2010.04159)] [[fundamentalvisi
 - **[DETR]** End-to-End Object Detection with Transformers.<br>
 Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.<br>
 In [[2005.12872](https://arxiv.org/abs/2005.12872)] [[facebookresearch/detr](https://github.com/facebookresearch/detr)]
-
 
 
 

@@ -28,9 +28,6 @@ I am intensely reading BEV related papers these days, so this list is expected t
 - **[BEVDepth]** BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection.<br>
   Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran Wang, Yukang Shi, Jianjian Sun, Zeming Li.<br>
   In . [[2206.10092](https://arxiv.org/abs/2206.10092)] [[Megvii-BaseDetection/BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)]
-- **[Simple Baseline]** A Simple Baseline for BEV Perception Without LiDAR.<br>
-  Adam W. Harley, Zhaoyuan Fang, Jie Li, Rares Ambrus, Katerina Fragkiadaki.<br>
-  In . [[2206.07959](https://arxiv.org/abs/2206.07959)]
 - **[Ego3RT]** Learning Ego 3D Representation as Ray Tracing.<br>
   Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang.<br>
   In . [[2206.04042](https://arxiv.org/abs/2206.04042)] [[fudan-zvg/Ego3RT](https://github.com/fudan-zvg/Ego3RT)]
@@ -84,6 +81,9 @@ In . [[2207.08536](https://arxiv.org/abs/2207.08536)]
 - **[CoBEVT]** CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers.<br>
 Runsheng Xu, Zhengzhong Tu, Hao Xiang, Wei Shao, Bolei Zhou, Jiaqi Ma.<br>
 In . [[2207.02202](https://arxiv.org/abs/2207.02202)]
+- **[Simple Baseline]** A Simple Baseline for BEV Perception Without LiDAR.<br>
+Adam W. Harley, Zhaoyuan Fang, Jie Li, Rares Ambrus, Katerina Fragkiadaki.<br>
+In . [[2206.07959](https://arxiv.org/abs/2206.07959)]
 - **[GKT]** Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer<br>
 Shaoyu Chen, Tianheng Cheng, Xinggang Wang, Wenming Meng, Qian Zhang, Wenyu Liu.<br>
 In . [[2206.04584](https://arxiv.org/abs/2206.04584)] [[hustvl/GKT](https://github.com/hustvl/GKT)]

@@ -5,8 +5,9 @@ I am intensely reading BEV related papers these days, so this list is expected t
 
 ### TOC
 * [Survey](#survey)
-* [BEV 3D Object Detection](#bev-3d-object-detection-related)
-* [BEV Segmentation](#bev-segmentation-related)
+* [BEV 3D Object Detection](#bev-3d-object-detection-related) (mainly camera and camera+lidar based)
+* [BEV Segmentation](#bev-segmentation-related) (mainly camera and camera+lidar based)
+* [LiDAR](#lidar)
 * [DETR Series](#detr-series)
 
 ### Survey
@@ -22,6 +23,7 @@ In . [[2206.09474](https://arxiv.org/abs/2206.09474)] [[PointsCoder/Awesome-3D-O
 
 
 ### BEV 3D Object Detection related
+(mainly camera and camera+lidar based)
 - **[HMFI]** Homogeneous Multi-modal Feature Fusion and Interaction for 3D Object Detection<br>
 Xin Li, Botian Shi, Yuenan Hou, Xingjiao Wu, Tianlong Ma, Yikang Li, Liang He.<br>
 In ECCV 2022. [[2210.09615](https://arxiv.org/abs/2210.09615)]
@@ -235,6 +237,171 @@ In CVPR 2018. [[paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/He
 Sunando Sengupta, Paul Sturgess, L’ubor Ladický, Philip H. S. Torr.<br>
 In IROS 2012. [[paper](https://www.robots.ox.ac.uk/~tvg/publications/2012/IROS_Mapping_ss.pdf)]
 
+
+### LiDAR
+- **[Backbone]** PointPillars Backbone Type Selection For Fast and Accurate LiDAR Object Detection<br>
+Konrad Lis, Tomasz Kryjak.<br>
+In ICCVG 2022. [[2209.15252](https://arxiv.org/abs/2209.15252)]
+- **[SPSConv]** Spatial Pruned Sparse Convolution for Efficient 3D Object Detection<br>
+Jianhui Liu, Yukang Chen, Xiaoqing Ye, Zhuotao Tian, Xiao Tan, Xiaojuan Qi.<br>
+In NeurIPS 2022. [[2209.14201](https://arxiv.org/abs/2209.14201)]
+- **[MDRNet]** Rethinking Dimensionality Reduction in Grid-based 3D Object Detection.<br>
+Dihe Huang, Ying Chen, Yikang Ding, Jinli Liao, Jianlin Liu, Kai Wu, Qiang Nie, Yong Liu, Chengjie Wang.<br>
+In . [[2209.09464](https://arxiv.org/abs/2209.09464)]
+- **[LidarMultiNet]** LidarMultiNet: Towards a Unified Multi-task Network for LiDAR Perception.<br>
+Dongqiangzi Ye, Zixiang Zhou, Weijia Chen, Yufei Xie, Yu Wang, Panqu Wang, Hassan Foroosh.<br>
+In . [[2209.09385](https://arxiv.org/abs/2209.09385)]
+- **[CenterFormer]** CenterFormer: Center-based Transformer for 3D Object Detection.<br>
+Zixiang Zhou, Xiangchen Zhao, Yu Wang, Panqu Wang, Hassan Foroosh.<br>
+In ECCV 2022. [[2209.05588](https://arxiv.org/abs/2209.05588)] [[TuSimple/centerformer](https://github.com/TuSimple/centerformer)]
+- **[Graph R-CNN]** Graph R-CNN: Towards Accurate 3D Object Detection with Semantic-Decorated Local Graph.<br>
+Honghui Yang, Zili Liu, Xiaopei Wu, Wenxiao Wang, Wei Qian, Xiaofei He, Deng Cai.<br>
+In ECCV 2022. [[2208.03624](https://arxiv.org/abs/2208.03624)] [[Nightmare-n/GraphRCNN](https://github.com/Nightmare-n/GraphRCNN)]
+- **[LG3D]** Label-Guided Auxiliary Training Improves 3D Object Detector.<br>
+Yaomin Huang, Xinmei Liu, Yichen Zhu, Zhiyuan Xu, Chaomin Shen, Zhengping Che, Guixu Zhang, Yaxin Peng, Feifei Feng, Jian Tang.<br>
+In ECCV 2022. [[2207.11753](https://arxiv.org/abs/2207.11753)]
+- **[DeMF]** Boosting 3D Object Detection via Object-Focused Image Fusion.<br>
+Hao Yang, Chen Shi, Yihong Chen, Liwei Wang.<br>
+In . [[2207.10589](https://arxiv.org/abs/2207.10589)] [[haoy945/DeMF](https://github.com/haoy945/DeMF)]
+- **[FSD]** Fully Sparse 3D Object Detection.<br>
+Lue Fan, Feng Wang, Naiyan Wang, Zhaoxiang Zhang.<br>
+In . [[2207.10035](https://arxiv.org/abs/2207.10035)] [[TuSimple/SST](https://github.com/TuSimple/SST)]
+- **[RDIoU]** Rethinking IoU-based Optimization for Single-stage 3D Object Detection.<br>
+Hualian Sheng, Sijia Cai, Na Zhao, Bing Deng, Jianqiang Huang, Xian-Sheng Hua, Min-Jian Zhao, Gim Hee Lee.<br>
+In . [[2207.09332](https://arxiv.org/abs/2207.09332)] [[hlsheng1/RDIoU](https://github.com/hlsheng1/RDIoU)]
+- **[LargeKernel3D]** Scaling up Kernels in 3D CNNs.<br>
+Yukang Chen, Jianhui Liu, Xiaojuan Qi, Xiangyu Zhang, Jian Sun, Jiaya Jia.<br>
+IN . [[2206.10555](https://arxiv.org/abs/2206.10555)] [[dvlab-research/LargeKernel3D](https://github.com/dvlab-research/LargeKernel3D)]
+- **[Occam Laser]** OccAM’s Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data.<br>
+David Schinagl, Georg Krispel, Horst Possegger, Peter M. Roth, Horst Bischof.<br>
+In CVPR 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Schinagl_OccAMs_Laser_Occlusion-Based_Attribution_Maps_for_3D_Object_Detectors_on_CVPR_2022_paper.pdf)] [[dschinagl/occam](https://github.com/dschinagl/occam)]
+- **[PillarNet]** PillarNet: Real-Time and High-Performance Pillar-based 3D Object Detection.<br>
+Guangsheng Shi, Ruifeng Li, Chao Ma.<br>
+In . [[2205.07403](https://arxiv.org/abs/2205.07403)] [[agent-sgs/PillarNet](https://github.com/agent-sgs/PillarNet)]
+- **[MPPNet]** MPPNet: Multi-Frame Feature Intertwining with Proxy Points for 3D Temporal Object Detection.<br>
+Xuesong Chen, Shaoshuai Shi, Benjin Zhu, Ka Chun Cheung, Hang Xu, Hongsheng Li.<br>
+In . [[2205.05979](https://arxiv.org/abs/2205.05979)] [[open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)]
+- **[FocalsConv]** Focal Sparse Convolutional Networks for 3D Object Detection.<br>
+Yukang Chen, Yanwei Li, Xiangyu Zhang, Jian Sun, Jiaya Jia.<br>
+In CVPR 2022. [[2204.12463](https://arxiv.org/abs/2204.12463)] [[dvlab-research/FocalsConv](https://github.com/dvlab-research/FocalsConv)]
+- **[MODEST]** Learning to Detect Mobile Objects from LiDAR Scans Without Labels.<br>
+Yurong You, Katie Z Luo, Cheng Perng Phoo, Wei-Lun Chao, Wen Sun, Bharath Hariharan, Mark Campbell, Kilian Q. Weinberger.<br>
+In CVPR 2022. [[2203.15882](https://arxiv.org/abs/2203.15882)] [[YurongYou/MODEST](https://github.com/YurongYou/MODEST)]
+- **[AziNorm]** AziNorm: Exploiting the Radial Symmetry of Point Cloud for Azimuth-Normalized 3D Perception.<br>
+Shaoyu Chen, Xinggang Wang, Tianheng Cheng, Wenqiang Zhang, Qian Zhang, Chang Huang, Wenyu Liu.<br>
+In CVPR 2022. [[2203.13090](https://arxiv.org/abs/2203.13090)] [[hustvl/AziNorm](https://github.com/hustvl/AziNorm)]
+- **[IA-SSD]** Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds.<br>
+Yifan Zhang, Qingyong Hu, Guoquan Xu, Yanxin Ma, Jianwei Wan, Yulan Guo.<br>
+In CVPR 2022. [[2203.11139](https://arxiv.org/abs/2203.11139)] [[yifanzhang713/IA-SSD](https://github.com/yifanzhang713/IA-SSD)]
+- **[PDV]** Point Density-Aware Voxels for LiDAR 3D Object Detection<br>
+Jordan S. K. Hu, Tianshu Kuai, Steven L. Waslander.<br>
+In CVPR 2022. [[2203.05662](https://arxiv.org/abs/2203.05662)] [[TRAILab/PDV](https://github.com/TRAILab/PDV)]
+- **[PiFeNet]** Accurate and Real-time 3D Pedestrian Detection Using an Efficient Attentive Pillar Network<br>
+Duy-Tho Le, Hengcan Shi, Hamid Rezatofighi, Jianfei Cai.<br>
+In . [[2112.15458](https://arxiv.org/abs/2112.15458)] [[ldtho/PiFeNet](https://github.com/ldtho/PiFeNet)]
+- **[SST]** Embracing Single Stride 3D Object Detector with Sparse Transformer.<br>
+Lue Fan, Ziqi Pang, Tianyuan Zhang, Yu-Xiong Wang, Hang Zhao, Feng Wang, Naiyan Wang, Zhaoxiang Zhang.<br>
+In . [[2112.06375](https://arxiv.org/abs/2112.06375)] [[TuSimple/SST](https://github.com/TuSimple/SST)]
+- **[Pyramid R-CNN]** Pyramid R-CNN: Towards Better Performance and Adaptability for 3D Object Detection.<br>
+Jiageng Mao, Minzhe Niu, Haoyue Bai, Xiaodan Liang, Hang Xu, Chunjing Xu.<br>
+In ICCV 2021. [[2109.02499](https://arxiv.org/abs/2109.02499)]
+- **[Object DGCNN]** Object DGCNN: 3D Object Detection using Dynamic Graphs.<br>
+Yue Wang, Justin Solomon.<br>
+In NeurIPS 2021. [[2110.06923](https://arxiv.org/abs/2110.06923)] [[wangyueft/detr3d](https://github.com/wangyueft/detr3d)]
+- **[3DETR]** An End-to-End Transformer Model for 3D Object Detection.<br>
+Ishan Misra, Rohit Girdhar, Armand Joulin.<br>
+In ICCV 2021. [[2109.08141](https://arxiv.org/abs/2109.08141)] [[facebookresearch/3detr](https://github.com/facebookresearch/3detr)]
+- **[VoTr]** Voxel Transformer for 3D Object Detection.<br>
+Jiageng Mao, Yujing Xue, Minzhe Niu, Haoyue Bai, Jiashi Feng, Xiaodan Liang, Hang Xu, Chunjing Xu.<br>
+In ICCV 2021. [[2109.02497](https://arxiv.org/abs/2109.02497)]
+- **[RangeIoUDet]** RangeIoUDet: Range Image based Real-Time 3D Object Detector<br>
+Optimized by Intersection over Union.<br>
+Zhidong Liang, Zehan Zhang, Ming Zhang, Xian Zhao, Shiliang Pu.
+In CVPR 2021. [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Liang_RangeIoUDet_Range_Image_Based_Real-Time_3D_Object_Detector_Optimized_by_CVPR_2021_paper.pdf)]
+- **[RSN]** RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection<br>
+Pei Sun, Weiyue Wang, Yuning Chai, Gamaleldin Elsayed, Alex Bewley, Xiao Zhang, Cristian Sminchisescu, Dragomir Anguelov.<br>
+In . [[2106.13365](https://arxiv.org/abs/2106.13365)]
+- **[M3DeTR]** M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers.<br>
+Tianrui Guan, Jun Wang, Shiyi Lan, Rohan Chandra, Zuxuan Wu, Larry Davis, Dinesh Manocha.<br>
+In WACV 2022. [[2104.11896](https://arxiv.org/abs/2104.11896)] [[rayguan97/M3DETR](https://github.com/rayguan97/M3DETR)]
+- **[SE-SSD]** SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud.<br>
+Wu Zheng, Weiliang Tang, Li Jiang, Chi-Wing Fu.<br>
+In CVPR 2021. [[2104.09804](https://arxiv.org/abs/2104.09804)] [[Vegeta2020/SE-SSD](https://github.com/Vegeta2020/SE-SSD)]
+- **[LiDAR RCNN]** LiDAR R-CNN: An Efficient and Universal 3D Object Detector<br>
+Zhichao Li, Feng Wang, Naiyan Wang.<br>
+In CVPR 2021. [[2103.15297](https://arxiv.org/abs/2103.15297)] [[tusen-ai/LiDAR_RCNN](https://github.com/tusen-ai/LiDAR_RCNN)]
+- **[PV-RCNN++]** PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection.<br>
+Shaoshuai Shi, Li Jiang, Jiajun Deng, Zhe Wang, Chaoxu Guo, Jianping Shi, Xiaogang Wang, Hongsheng Li.<br>
+In . [[2102.00463](https://arxiv.org/abs/2102.00463)] [[open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)]
+- **[Voxel R-CNN]** Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection.<br>
+Jiajun Deng, Shaoshuai Shi, Peiwei Li, Wengang Zhou, Yanyong Zhang, Houqiang Li.<br>
+In AAAI 2021. [[2012.15712](https://arxiv.org/abs/2012.15712)] [[djiajunustc/Voxel-R-CNN](https://github.com/djiajunustc/Voxel-R-CNN)]
+- **[Pointformer]** 3D Object Detection with Pointformer.<br>
+Xuran Pan, Zhuofan Xia, Shiji Song, Li Erran Li, Gao Huang.<br>
+In CVPR 2020. [[2012.11409](https://arxiv.org/abs/2012.11409)] [[Vladimir2506/Pointformer](https://github.com/Vladimir2506/Pointformer)]
+- **[Deformable PV-RCNN]** Deformable PV-RCNN: Improving 3D Object Detection with Learned Deformations.<br>
+Prarthana Bhattacharyya, Krzysztof Czarnecki.<br>
+In ECCVW 2020. [[2008.08766](https://arxiv.org/abs/2008.08766)]
+- **[CenterNet3D]** CenterNet3D: An Anchor Free Object Detector for Point Cloud.<br>
+Guojun Wang, Jian Wu, Bin Tian, Siyu Teng, Long Chen, Dongpu Cao.<br>
+In IEEE Transactions on Intelligent Transportation Systems 2021. [[2007.07214](https://arxiv.org/abs/2007.07214)] [[wangguojun2018/CenterNet3d](https://github.com/wangguojun2018/CenterNet3d)]
+- **[CenterPoint]** Center-based 3D Object Detection and Tracking.<br>
+Tianwei Yin, Xingyi Zhou, Philipp Krähenbühl.<br>
+In CVPR 2021. [[2006.11275](https://arxiv.org/abs/2006.11275)] [[tianweiy/CenterPoint](https://github.com/tianweiy/CenterPoint)]
+- **[SASSD]** Structure Aware Single-stage 3D Object Detection from Point Cloud.<br>
+Chenhang He, Hui Zeng, Jianqiang Huang, Xian-Sheng Hua, Lei Zhang.<br>
+In CVPR 2020. [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Structure_Aware_Single-Stage_3D_Object_Detection_From_Point_Cloud_CVPR_2020_paper.pdf)] [[skyhehe123/SA-SSD](https://github.com/skyhehe123/SA-SSD)]
+- **[PV-RCNN]** PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection.<br>
+Shaoshuai Shi, Chaoxu Guo, Li Jiang, Zhe Wang, Jianping Shi, Xiaogang Wang, Hongsheng Li.<br>
+In CVPR 2020. [[1912.13192](https://arxiv.org/abs/1912.13192)] [[open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)]
+- **[HotSpotNet]** Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots.<br>
+Qi Chen, Lin Sun, Zhixin Wang, Kui Jia, Alan Yuille.<br>
+In . [[1912.12791](https://arxiv.org/abs/1912.12791)]
+- **[MVF]** End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds.<br>
+Yin Zhou, Pei Sun, Yu Zhang, Dragomir Anguelov, Jiyang Gao, Tom Ouyang, James Guo, Jiquan Ngiam, Vijay Vasudevan.<br>
+In CoRL 2019. [[1910.06528](https://arxiv.org/abs/1910.06528)]
+- **[CBGS]** Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection.<br>
+Benjin Zhu, Zhengkai Jiang, Xiangxin Zhou, Zeming Li, Gang Yu.<br>
+In . [[1908.09492](https://arxiv.org/abs/1908.09492)]
+- **[VoteNet]** Deep Hough Voting for 3D Object Detection in Point Clouds.<br>
+Charles R. Qi, Or Litany, Kaiming He, Leonidas J. Guibas.<br>
+In ICCV 2019. [[1904.09664](https://arxiv.org/abs/1904.09664)] [[facebookresearch/votenet](https://github.com/facebookresearch/votenet)]
+- **[Frustum ConvNet]** Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection.<br>
+Zhixin Wang, Kui Jia.<br>
+In IROS 2019. [[1903.01864](https://arxiv.org/abs/1903.01864)] [[zhixinwang/frustum-convnet](https://github.com/zhixinwang/frustum-convnet)]
+- **[PIXOR]** PIXOR: Real-time 3D Object Detection from Point Clouds.<br>
+Bin Yang, Wenjie Luo, Raquel Urtasun.<br>
+In CVPR 2018. [[1902.06326](https://arxiv.org/abs/1902.06326)]
+- **[PointPillars]** PointPillars: Fast Encoders for Object Detection from Point Clouds.<br>
+Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom.<br>
+In CVPR 2019. [[1812.05784](https://arxiv.org/abs/1812.05784)]
+- **[PointRCNN]** PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud.<br>
+Shaoshuai Shi, Xiaogang Wang, Hongsheng Li.<br>
+In CVPR 2019. [[1812.04244](https://arxiv.org/abs/1812.04244)] [[sshaoshuai/PointRCNN](https://github.com/sshaoshuai/PointRCNN)]
+- **[BirdNet]** BirdNet: a 3D Object Detection Framework from LiDAR information.<br>
+Jorge Beltran, Carlos Guindel, Francisco Miguel Moreno, Daniel Cruzado, Fernando Garcia, Arturo de la Escalera.<br>
+In ITSC 2018. [[1805.01195](https://arxiv.org/abs/1805.01195)]
+- **[SECOND]** SECOND: Sparsely Embedded Convolutional Detection.<br>
+Yan Yan, Yuxing Mao, Bo Li.<br>
+In Sensors 2018. [[paper](https://www.mdpi.com/1424-8220/18/10/3337)]
+- **[Frustum PointNet]** Frustum PointNets for 3D Object Detection from RGB-D Data.<br>
+Charles R. Qi, Wei Liu, Chenxia Wu, Hao Su, Leonidas J. Guibas.<br>
+In . [[1711.08488](https://arxiv.org/abs/1711.08488)]
+- **[VoxelNet]** VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection.<br>
+Yin Zhou, Oncel Tuzel.<br>
+In . [[1711.06396](https://arxiv.org/abs/1711.06396)]
+- **[PointNet++]** PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space.<br>
+Charles R. Qi, Li Yi, Hao Su, Leonidas J. Guibas.<br>
+In NIPS 2017 . [[1706.02413](https://arxiv.org/abs/1706.02413)] [[charlesq34/pointnet2](https://github.com/charlesq34/pointnet2)]
+- **[PointNet]** PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation<br>
+Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas.<br>
+In CVPR 2017. [[1612.00593](https://arxiv.org/abs/1612.00593)] [[charlesq34/pointnet](https://github.com/charlesq34/pointnet)]
+- 3D Fully Convolutional Network for Vehicle Detection in Point Cloud.
+Bo Li.
+In . [[1611.08069](https://arxiv.org/abs/1611.08069)]
+- **[VeloFCN]** Vehicle Detection from 3D Lidar Using Fully Convolutional Network.<br>
+Bo Li, Tianlei Zhang, Tian Xia.<br>
+In Robotics: Science and Systems, 2016. [[1608.07916](https://arxiv.org/abs/1608.07916)]
 
 
 ### DETR Series

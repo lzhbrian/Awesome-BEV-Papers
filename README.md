@@ -4,12 +4,75 @@ curated list of BEV related papers. I also organized DETR related papers here, a
 I am intensely reading BEV related papers these days, so this list is expected to be updated very frequently.
 
 ### TOC
+* [Survey](#survey)
 * [BEV 3D Object Detection](#bev-3d-object-detection-related)
 * [BEV Segmentation](#bev-segmentation-related)
 * [DETR Series](#detr-series)
 
+### Survey
+- Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe.<br>
+Hongyang Li, Chonghao Sima, Jifeng Dai, Wenhai Wang, Lewei Lu, Huijie Wang, Enze Xie, Zhiqi Li, Hanming Deng, Hao Tian, Xizhou Zhu, Li Chen, Yulu Gao, Xiangwei Geng, Jia Zeng, Yang Li, Jiazhi Yang, Xiaosong Jia, Bohan Yu, Yu Qiao, Dahua Lin, Si Liu, Junchi Yan, Jianping Shi, Ping Luo.<br>
+In . [[2209.05324](https://arxiv.org/abs/2209.05324)] [[OpenPerceptionX/BEVPerception-Survey-Recipe](https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe)]
+- Vision-Centric BEV Perception: A Survey<br>
+Yuexin Ma, Tai Wang, Xuyang Bai, Huitong Yang, Yuenan Hou, Yaming Wang, Yu Qiao, Ruigang Yang, Dinesh Manocha, Xinge Zhu.<br>
+In . [[2208.02797](https://arxiv.org/abs/2208.02797)] [[4DVLab/Vision-Centric-BEV-Perception](https://github.com/4DVLab/Vision-Centric-BEV-Perception)]
+- 3D Object Detection for Autonomous Driving: A Review and New Outlooks<br>
+Jiageng Mao, Shaoshuai Shi, Xiaogang Wang, Hongsheng Li.<br>
+In . [[2206.09474](https://arxiv.org/abs/2206.09474)] [[PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving)]
+
 
 ### BEV 3D Object Detection related
+- **[HMFI]** Homogeneous Multi-modal Feature Fusion and Interaction for 3D Object Detection<br>
+Xin Li, Botian Shi, Yuenan Hou, Xingjiao Wu, Tianlong Ma, Yikang Li, Liang He.<br>
+In ECCV 2022. [[2210.09615](https://arxiv.org/abs/2210.09615)]
+- **[SOLOFusion]** Time Will Tell: New Outlooks and A Baseline for Temporal Multi-View 3D Object Detection<br>
+Jinhyung Park, Chenfeng Xu, Shijia Yang, Kurt Keutzer, Kris Kitani, Masayoshi Tomizuka, Wei Zhan.<br>
+In . [[2210.02443](https://arxiv.org/abs/2210.02443)] [[Divadi/SOLOFusion](https://github.com/Divadi/SOLOFusion)]
+- **[BEVDistill]** BEVDistill: Cross-modal BEV Distillation For Multi-view 3D Object Detection.<br>
+Anonymous.<br>
+In ICLR 2023 (submission). [[paper](https://openreview.net/forum?id=-2zfgNS917)]
+- **[SpatialDETR]** SpatialDETR: Robust Scalable Transformer-Based 3D Object Detection from Multi-View Camera Images with Global Cross-Sensor Attention.<br>
+Simon Doll, Richard Schulz, Lukas Schneider, Viviane Benzin, Markus Enzweiler, Hendrik P.A. Lensch.<br>
+In ECCV 2022. [[paper](https://markus-enzweiler.de/downloads/publications/ECCV2022-spatial_detr.pdf)] [[cgtuebingen/SpatialDETR](https://github.com/cgtuebingen/SpatialDETR)]
+- **[CrossDTR]** CrossDTR: Cross-view and Depth-guided Transformers for 3D Object Detection<br>
+Ching-Yu Tseng, Yi-Rong Chen, Hsin-Ying Lee, Tsung-Han Wu, Wen-Chin Chen, Winston Hsu.<br>
+In . [[2209.13507](https://arxiv.org/abs/2209.13507)] [[sty61010/CrossDTR](https://github.com/sty61010/CrossDTR)]
+- **[CFF]** Center Feature Fusion: Selective Multi-Sensor Fusion of Center-based Objects<br>
+Philip Jacobson, Yiyang Zhou, Wei Zhan, Masayoshi Tomizuka, Ming C. Wu.<br>
+In . [[2209.12880](https://arxiv.org/abs/2209.12880)]
+- **[DeepFusion]** DeepFusion: A Robust and Modular 3D Object Detector for Lidars, Cameras and Radars<br>
+Florian Drews, Di Feng, Florian Faion, Lars Rosenbaum, Michael Ulrich, Claudius Gläser.<br>
+In . [[2209.12729](https://arxiv.org/abs/2209.12729)]
+- **[BEVStereo]** BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo<br>
+Yinhao Li, Han Bao, Zheng Ge, Jinrong Yang, Jianjian Sun, Zeming Li.<br>
+In . [[2209.10248](https://arxiv.org/abs/2209.10248)] [[Megvii-BaseDetection/BEVStereo](https://github.com/Megvii-BaseDetection/BEVStereo)]
+- **[MSMDFusion]** MSMDFusion: Fusing LiDAR and Camera at Multiple Scales with Multi-Depth Seeds for 3D Object Detection<br>
+Yang Jiao, Zequn Jie, Shaoxiang Chen, Jingjing Chen, Xiaolin Wei, Lin Ma, Yu-Gang Jiang.<br>
+In . [[2209.03102](https://arxiv.org/abs/2209.03102)]
+- **[DeepInteraction]** DeepInteraction: 3D Object Detection via Modality Interaction<br>
+Zeyu Yang, Jiaqi Chen, Zhenwei Miao, Wei Li, Xiatian Zhu, Li Zhang.<br>
+In . [[2208.11112](https://arxiv.org/abs/2208.11112)]
+- **[STS]** STS: Surround-view Temporal Stereo for Multi-view 3D Detection<br>
+Zengran Wang, Chen Min, Zheng Ge, Yinhao Li, Zeming Li, Hongyu Yang, Di Huang.<br>
+In . [[2208.10145](https://arxiv.org/abs/2208.10145)]
+- **[SimMOD]** A Simple Baseline for Multi-Camera 3D Object Detection<br>
+Yunpeng Zhang, Wenzhao Zheng, Zheng Zhu, Guan Huang, Jie Zhou, Jiwen Lu.<br>
+In . [[2208.10035](https://arxiv.org/abs/2208.10035)] [[zhangyp15/SimMOD](https://github.com/zhangyp15/SimMOD)]
+- **[PersDet]** PersDet: Monocular 3D Detection in Perspective Bird's-Eye-View<br>
+Hongyu Zhou, Zheng Ge, Weixin Mao, Zeming Li.<br>
+In . [[2208.09394](https://arxiv.org/abs/2208.09394)]
+- **[DfM]** Monocular 3D Object Detection with Depth from Motion<br>
+Tai Wang, Jiangmiao Pang, Dahua Lin.<br>
+In ECCV 2022. [[2207.12988](https://arxiv.org/abs/2207.12988)] [[Tai-Wang/Depth-from-Motion](https://github.com/Tai-Wang/Depth-from-Motion)]
+- **[MV-FCOS3D++]** MV-FCOS3D++: Multi-View Camera-Only 4D Object Detection with Pretrained Monocular Backbones<br>
+Tai Wang, Qing Lian, Chenming Zhu, Xinge Zhu, Wenwei Zhang.<br>
+In . [[2207.12716](https://arxiv.org/abs/2207.12716)] [[Tai-Wang/Depth-from-Motion](https://github.com/Tai-Wang/Depth-from-Motion)]
+- **[DEVIANT]** DEVIANT: Depth EquiVarIAnt NeTwork for Monocular 3D Object Detection<br>
+Abhinav Kumar, Garrick Brazil, Enrique Corona, Armin Parchami, Xiaoming Liu.<br>
+In . [[2207.10758](https://arxiv.org/abs/2207.10758)] [[abhi1kumar/DEVIANT](https://github.com/abhi1kumar/DEVIANT)]
+- **[DCD]** Densely Constrained Depth Estimator for Monocular 3D Object Detection<br>
+Yingyan Li, Yuntao Chen, Jiawei He, Zhaoxiang Zhang.<br>
+In ECCV 2022. [[2207.10047](https://arxiv.org/abs/2207.10047)] [[BraveGroup/DCD](https://github.com/BraveGroup/DCD)]
 - **[AutoAlignV2]** AutoAlignV2: Deformable Feature Aggregation for Dynamic Multi-Modal 3D Object Detection.<br>
   Zehui Chen, Zhenyu Li, Shiquan Zhang, Liangji Fang, Qinhong Jiang, Feng Zhao.<br>
   In . [[2207.10316](https://arxiv.org/abs/2207.10316)] [[zehuichen123/AutoAlignV2](https://github.com/zehuichen123/AutoAlignV2)]
@@ -175,7 +238,12 @@ In IROS 2012. [[paper](https://www.robots.ox.ac.uk/~tvg/publications/2012/IROS_M
 
 
 ### DETR Series
-
+- **[Group DETR v2]** Group DETR v2: Strong Object Detector with Encoder-Decoder Pretraining.<br>
+Qiang Chen, Jian Wang, Chuchu Han, Shan Zhang, Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang, Shuming Han, Gang Zhang, Haocheng Feng, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.<br>
+In . [[2211.03594](https://arxiv.org/abs/2211.03594)]
+- **[IMFA-DETR]** Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors<br>
+Gongjie Zhang, Zhipeng Luo, Yingchen Yu, Zichen Tian, Jingyi Zhang, Shijian Lu.<br>
+In . [[2208.11356](https://arxiv.org/abs/2208.11356)] [[ZhangGongjie/IMFA](https://github.com/ZhangGongjie/IMFA)]
 - **[Group DETR]** Group DETR: Fast DETR Training with Group-Wise One-to-Many Assignment.<br>
 Qiang Chen, Xiaokang Chen, Jian Wang, Haocheng Feng, Junyu Han, Errui Ding, Gang Zeng, Jingdong Wang.<br>
 In . [[2207.13085](https://arxiv.org/abs/2207.13085)]
